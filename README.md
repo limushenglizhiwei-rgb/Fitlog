@@ -1,17 +1,76 @@
-# flutter_application_1
+# Fitlog
 
-A new Flutter project.
+**一款基于 Flutter 开发的个人健身训练记录与分析应用。**
 
-## Getting Started
+Fitlog 希望帮助用户建立完整的训练管理流程：从制定训练计划、记录实际训练，到分析训练表现、追踪身体数据，让每一次训练都有迹可循。
 
-This project is a starting point for a Flutter application.
+> 项目目前处于持续开发阶段，功能和界面仍在迭代中。
 
-A few resources to get you started if this is your first Flutter project:
+## 项目特点
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- **训练管理**：制定和管理个人训练计划。
+- **训练记录**：记录每次训练的动作、组数、重量和次数。
+- **训练日历**：通过日历查看训练安排与历史记录。
+- **数据追踪**：记录体重，查看体重变化趋势。
+- **训练分析**：对比计划与实际训练表现，生成单次训练总结。
+- **本地数据管理**：使用 SQLite 存储训练相关数据。
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 技术栈
+
+| 技术 | 用途 |
+|---|---|
+| Flutter | 跨平台应用开发框架 |
+| Dart | 主要开发语言 |
+| SQLite | 本地数据存储 |
+| fl_chart | 数据图表展示 |
+
+## 本地运行
+
+### 环境要求
+
+- Flutter SDK
+- Dart SDK（随 Flutter SDK 提供）
+- Android Studio 或其他可用的 Android 开发环境
+- Android 模拟器或实体设备
+
+### 获取项目
+
+```bash
+git clone https://github.com/limushenglizhiwei-rgb/Fitlog.git
+```
+
+进入项目目录：
+
+```bash
+cd Fitlog
+```
+
+安装项目依赖：
+
+```bash
+flutter pub get
+```
+
+运行项目：
+
+```bash
+flutter run
+```
+
+## 项目规划
+
+Fitlog 将持续迭代，后续计划包括：
+
+- 完善训练分析规则与自然语言总结
+- 优化训练数据统计与趋势分析
+- 丰富身体数据记录维度
+- 改进项目代码结构与稳定性
+- 增加数据备份与导出能力
+
+## 开发状态
+
+项目正在积极开发中，目前主要聚焦于核心训练记录与分析功能。
+
+## 许可证
+
+当前项目暂未添加开源许可证。如需使用、修改或分发本项目代码，请先联系项目维护者。
