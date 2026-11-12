@@ -4,7 +4,7 @@ import 'package:flutter_application_1/database/database_helper.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/plan_data.dart';
 
-import 'training_exercise_card.dart';
+import 'package:flutter_application_1/widget/training_exercise_card.dart';
 
 class TrainingPage extends StatefulWidget {
   const TrainingPage({super.key, required this.plan});

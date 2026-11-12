@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_application_1/plan_data.dart';
 
-import 'exercise_card.dart';
+import 'package:flutter_application_1/widget/exercise_card.dart';
 
 class CreatePlanPage extends StatefulWidget {
   const CreatePlanPage({

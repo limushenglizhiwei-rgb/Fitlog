@@ -1,6 +1,5 @@
 class PlanData {
-  /// 数据库中的计划 ID。
-  /// 新建计划保存前为 null，保存后会获得真实 ID。
+
   int? id;
 
   String planName;

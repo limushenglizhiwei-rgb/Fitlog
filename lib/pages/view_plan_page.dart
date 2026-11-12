@@ -1,7 +1,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/plan_data.dart';
-import 'package:flutter_application_1/pages/plan_manage_card.dart';
+import 'package:flutter_application_1/widget/plan_manage_card.dart';
 
 class ViewPlanPage extends StatefulWidget {
   const ViewPlanPage({

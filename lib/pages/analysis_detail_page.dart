@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/database/database_helper.dart';
 
-import 'services/workout_analyzer.dart';
+import 'package:flutter_application_1/services/workout_analyzer.dart';
 
 class AnalysisDetailPage extends StatefulWidget {
   const AnalysisDetailPage({super.key, required this.title});

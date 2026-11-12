@@ -1,7 +1,7 @@
 import 'package:fl_chart/fl_chart.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/database/database_helper.dart';
-import 'package:flutter_application_1/pages/widget/weight_entry_sheet.dart';
+import 'package:flutter_application_1/widget/weight_entry_sheet.dart';
 
 class WeightTrendPage extends StatefulWidget {
   const WeightTrendPage({super.key});
