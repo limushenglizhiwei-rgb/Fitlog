@@ -1,13 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/database/database_helper.dart';
-
-import 'workout_detail_page.dart';
-import 'training_page.dart';
-import 'my_page.dart';
-import '../utils/typeface.dart';
-import 'create_plan_page.dart';
-import 'view_plan_page.dart';
-
+import '../workout_detail_page.dart';
+import 'package:flutter_application_1/pages/training_page.dart';
+import 'package:flutter_application_1/pages/my_page.dart';
+import 'package:flutter_application_1/utils/typeface.dart';
+import 'package:flutter_application_1/pages/create_plan_page.dart';
+import 'package:flutter_application_1/pages/view_plan_page.dart';
 import 'package:flutter_application_1/plan_data.dart';
 import 'package:flutter_application_1/widget/plan_card.dart';
 
